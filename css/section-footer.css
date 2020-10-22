@@ -11,6 +11,7 @@ padding-bottom: 5%;
 align-items: center;
 height: 45vh;
 justify-content: space-between;
+
 }
 
 .container-nav-footer{
@@ -34,7 +35,7 @@ margin-left: 20px;
 
 
 .a-text-footer:hover{
-    text-decoration: underline;
+    text-decoration: line-through;
 }
 
 
