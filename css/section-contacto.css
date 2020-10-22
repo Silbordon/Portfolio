@@ -1,0 +1,146 @@
+/*Estilos section-contacto*/
+
+/*Vista DESTOCK*/
+
+/*Section contactame*/
+
+.container-contactos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(247, 236, 236);
+    box-shadow: inset -5px -2px 25px -15px rgba(0,0,0,1);
+    z-index: -10000;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 15%;
+    padding-bottom: 10%;
+  
+}
+
+.container-card{
+background-color: white;
+width: 90%;
+height: 100%;
+border: 1px solid rgb(192, 184, 184);
+border-radius: 15px;
+display: flex;
+flex-direction: row;
+padding: 7%;
+}
+
+.box-contactame{
+width: 50%;
+display: flex;
+flex-direction: column;
+
+}
+
+.contactame-text{
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.p-box-contactos{
+    font-size: 1.1em;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+.box-redes{
+width: 70%;
+margin-left: 5%;
+margin-top: 5%;
+}
+
+.red-social{
+margin-bottom: 15%;
+}
+
+
+.red-i{
+margin-right: 5%;
+color: #24564F;
+font-size: 1.2em;
+}
+
+.red-color-a{
+    color: black;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+
+
+.red-social .red-color-a:hover{
+    color: #24564F;
+    font-weight: 600;
+}
+
+.red-social .red:hover{
+    color: white;
+    border-radius: 50%;
+    border: 1px solid #24564F;
+    background-color: #24564F;
+    padding: 2%;
+}
+
+
+.red-social:active{
+    background-color: rgb(250, 237, 237);
+    border-radius: 20px;
+    padding: 10px;
+    width: 80%;
+    border: 1px solid gray;
+    box-shadow: 0px 1px 45px -11px rgba(0,0,0,1);
+}
+
+
+/*Section Escribime*/
+
+
+.box-escribime{
+width: 50%;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+.card-form{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.card-form-nombre{
+display: flex;
+flex-direction: column;
+margin-top: 2%;
+}
+
+.title-form{
+font-size: 1.1em;
+font-weight: 800;
+margin-bottom: 3%;
+}
+
+.card-input{
+border-radius: 20px;
+padding: 10px 4px;
+background-color: rgb(247, 236, 236);
+font-size: 1em;
+border: 1px solid rgb(219, 212, 212);
+
+}
+
+.enviar{
+font-size: 1.2em;
+padding: 2% 10%;
+margin-top: 5%;
+}
+

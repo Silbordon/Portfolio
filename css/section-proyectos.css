@@ -1,0 +1,79 @@
+/*Estilos section-cita*/
+
+/*Vista DESTOCK*/
+
+
+.container-proyectos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: -10000;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    box-shadow: inset -5px -2px 25px -15px rgba(0,0,0,1);
+}
+
+.box-text-proyectos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40% ;
+    height: 40%;
+    
+}
+
+.box-items-proyectos{
+display: flex;
+justify-content: space-between;
+width: 95%;
+flex-wrap: wrap;
+flex-direction: row;
+margin-top: 3%;
+}
+
+.item-proyecto{
+width: 340px;
+height: 340px;
+border-radius: 10px;
+border: 2px solid gray;
+margin-top: 3%;
+cursor: pointer;
+}
+
+.i-proyect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 85%;
+
+}
+
+.width-proyecto-img{
+    width: 80%;
+    height: 90%;
+    text-align: center;
+}
+
+.p-proyecto{
+font-size: 1.5em;
+font-weight: 600;
+margin-top: 3%;
+color: rgb(6, 41, 48);
+}
+
+
+.item-proyecto:hover{
+border: dotted #35AD9D;
+}
+
+
+.item-proyecto:active{
+    background-color: rgb(250, 243, 243);
+    box-shadow: inset -5px -2px 25px -15px rgba(0,0,0,1);
+
+}
+

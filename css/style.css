@@ -1,0 +1,29 @@
+/*Estilos generales*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Playfair Display', serif;
+    box-shadow: inset -5px -2px 12px -6px rgba(0,0,0,1);
+    width: 100%;
+    z-index: 10000;
+ 
+}
+
+button{
+   border: none;
+   width: fit-content;
+}
+
