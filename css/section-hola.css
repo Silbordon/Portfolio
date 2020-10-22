@@ -47,7 +47,7 @@ padding-bottom: 8%;
 
 .container-img-hola{
     width: 50%;
-    background-color: rgb(247, 236, 236);
+    
     display: flex;
     justify-content: flex-end;
 }
