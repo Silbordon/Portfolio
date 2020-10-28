@@ -29,7 +29,7 @@ margin-left: 20px;
 .container-red-footer{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 40vh;
 }
 
@@ -63,4 +63,21 @@ background-color: white;
 
 .text-footer{
 color: white;
+}
+
+/* Fin Vista DESTOCK*/
+
+
+
+/*Comienzo RESPONSIVE*/
+
+@media(max-width: 700px){
+
+    .container-footer{
+        height: 30vh;
+    }
+    .container-nav-footer{
+        display: none;
+    }
+
 }

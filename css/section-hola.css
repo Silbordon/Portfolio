@@ -2,51 +2,134 @@
 
 /*Vista DESTOCK*/
 
-.container-hola{
-display: flex;
-flex-direction: row;
-height: 100vh;
-z-index: -10000;
-padding-top: 15%;
-padding-left: 7%;
-padding-right: 7%;
-margin-bottom: 15%;
-justify-content: space-between;
+.container-hola {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    z-index: -10000;
+    padding-top: 15%;
+    padding-left: 7%;
+    padding-right: 7%;
+    margin-bottom: 10%;
+    justify-content: space-between;
 
 }
 
-.box-text{
-display: flex;
-flex-direction: column;
-justify-content: right;
-padding-top: 7%;
+.box-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    padding-top: 7%;
+    width: 50%;
+
+
 }
 
 
-.box-titulo{
-font-size: 2.0em;
-font-weight: 600;
+.box-titulo {
+    font-size: 1.8em;
+    font-weight: 600;
 }
 
-.box-nombre{
-font-size: 2.8em;
-font-weight: bolder;
-color: darkcyan;
+.box-nombre {
+    font-size: 2.9em;
+    font-weight: 700;
+    color: darkcyan;
+    font-style: italic;
 }
 
-.box-descripcion{
-font-size: 1.1em;
-padding-top: 4%;
-padding-bottom: 8%;
+.box-descripcion {
+    font-size: 1.1em;
+    padding-top: 4%;
+    padding-bottom: 8%;
+    line-height: 25px;
 }
 
-.hago{
+.hago {
     font-size: 1.3em;
     font-weight: 400;
 }
 
-.container-img-hola{
-    width: 60%;
+.container-img-hola {
     display: flex;
     justify-content: flex-end;
+    width: 50%;
 }
+
+/* Fin Vista DESTOCK*/
+
+
+/*Comienzo RESPONSIVE*/
+@media (max-width: 1000px) {
+
+    .container-hola {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .box-text {
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .box-descripcion {
+        margin-bottom: 5%;
+        text-align: center;
+    }
+
+    .container-img-hola {
+        margin-top: 10%;
+        width: 60%;
+    }
+}
+
+
+@media (max-width:800px) {
+
+    .box-titulo {
+        font-size: 1.6em;
+    }
+
+    .box-nombre {
+        font-size: 2.3em;
+    }
+
+    .box-descripcion {
+        font-size: 1.0em;
+    }
+}
+
+
+@media (max-width: 700px) {
+    .box-titulo {
+        font-size: 1.4em;
+
+    }
+
+    .box-nombre {
+        font-size: 1.9em;
+    }
+}
+
+@media (max-width: 400px) {
+    .box-titulo {
+        font-size: 1.2em;
+
+    }
+
+    .box-nombre {
+        font-size: 1.5em;
+    }
+
+    .box-descripcion {
+        font-size: 0.8em;
+    }
+
+}
+
+/*Fin RESPONSIVE*/

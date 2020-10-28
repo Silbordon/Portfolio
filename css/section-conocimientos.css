@@ -20,13 +20,14 @@
 display: flex;
 flex-direction: column;
 align-items: center;
-width: 45% ;
 height: 40%;
 }
 
 .section-title{
-font-size: 3em;
+font-size: 3.0em;
 font-weight: 900;
+text-align: center;
+
 }
 
 .p-box-conocimientos{
@@ -34,15 +35,17 @@ font-weight: 900;
 font-size: 1.1em;
 text-align: center;
 margin-top: 7%;
+width: 400px;
 }
 
 .box-conocimientos-items{
 display: flex;
 flex-flow: wrap;
 justify-content: space-between;
-width: 70%;
+width: 800px;
 margin-top: 5%;
 background-color: rgb(247, 236, 236);
+
 }
 
 .item-conocimientos{
@@ -75,3 +78,39 @@ font-weight: 700;
   color:  #24564F;
 }
 
+/* Fin Vista DESTOCK*/
+
+
+/*Comienzo RESPONSIVE*/
+
+@media (max-width:900px){
+
+  .box-conocimientos-items{
+    width: 520px;
+  }
+
+}
+
+@media (max-width:600px){
+  .container-conocimientos{
+    padding-bottom: 20%;
+    padding-top: 20%;
+  }
+
+  .box-conocimientos-items{
+    width: 400px;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+
+  .item-conocimientos{
+    margin-top: 6%;
+  }
+
+  .section-title{
+    font-size: 2.7em;
+  }
+}
+
+/*Fin RESPONSIVE*/
