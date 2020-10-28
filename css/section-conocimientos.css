@@ -109,8 +109,14 @@ font-weight: 700;
   }
 
   .section-title{
-    font-size: 2.7em;
+    font-size: 2.1em;
   }
+
+  .p-box-conocimientos{
+    font-size: 0.9em;
+  }
+
+
 }
 
 /*Fin RESPONSIVE*/

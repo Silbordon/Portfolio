@@ -118,16 +118,16 @@
 
 @media (max-width: 400px) {
     .box-titulo {
-        font-size: 1.2em;
+        font-size: 1.3em;
 
     }
 
     .box-nombre {
-        font-size: 1.5em;
+        font-size: 1.6em;
     }
 
     .box-descripcion {
-        font-size: 0.8em;
+        font-size: 0.9em;
     }
 
 }

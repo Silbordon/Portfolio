@@ -112,8 +112,8 @@ border: 2px solid rgb(92, 89, 89);
         width: 700px;
     }
     .item-proyecto{
-        width: 340px;
-        height: 340px;
+        width: 320px;
+        height: 320px;
         justify-content: space-evenly;
     }
   }
