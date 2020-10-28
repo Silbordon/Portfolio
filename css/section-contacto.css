@@ -258,6 +258,10 @@
     .red-social {
         width: 100%;
     }
+
+    .p-box-contactos{
+        font-size: 0.9em;
+    }
 }
 
 /*Fin RESPONSIVE*/
