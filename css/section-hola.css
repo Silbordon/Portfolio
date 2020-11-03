@@ -68,7 +68,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding-top: 20%;
+        padding-top: 30%;
         padding-left: 0;
         padding-right: 0;
 
@@ -134,6 +134,7 @@
 
 @media (max-width: 500px) {
     .box-titulo {
+        margin-top: -10%;
         padding-bottom: 8%;
     }
 
