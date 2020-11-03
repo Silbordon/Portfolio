@@ -13,6 +13,7 @@
     padding-bottom: 10%;
     background-color: rgb(247, 236, 236);
     box-shadow: inset -5px -2px 25px -15px rgba(0,0,0,1);
+    width: 100%;
 
 }
 
@@ -60,6 +61,8 @@ flex-direction: column;
 align-items: center;
 margin-top: 3%;
 cursor: pointer;
+-webkit-transition: 1s linear;
+transition: 1s linear;
 
 }
 
@@ -74,8 +77,9 @@ font-weight: 700;
 }
 
 .item-conocimientos:hover{
-  border: dotted  #24564F;  
-  color:  #24564F;
+  color:  #52978e;
+  -webkit-box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+  box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
 }
 
 /* Fin Vista DESTOCK*/
@@ -113,7 +117,8 @@ font-weight: 700;
   }
 
   .p-box-conocimientos{
-    font-size: 0.7em;
+    font-size: 0.9em;
+    width: 350px;
   }
 
 

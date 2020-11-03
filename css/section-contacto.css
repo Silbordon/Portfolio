@@ -240,8 +240,8 @@
 
 
 @media(max-width:700px) {
-    .card-form .card-input {
-        width: 90%;
+    .card-form-nombre .card-input {
+        width: 100%;
     }
 
     .red-i {
@@ -253,13 +253,14 @@
 
 }
 
-@media (max-width: 520px) {
+@media (max-width: 670px) {
     .card-form {
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
 
-    .card-form .card-input {
+    .card-form-nombre .card-input {
         width: 100%;
     }
 

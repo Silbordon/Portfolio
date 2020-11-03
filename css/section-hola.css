@@ -12,6 +12,8 @@
     padding-right: 7%;
     margin-bottom: 10%;
     justify-content: space-between;
+    width: 100%;
+
 
 }
 
@@ -69,6 +71,7 @@
         padding-top: 20%;
         padding-left: 0;
         padding-right: 0;
+
     }
 
     .box-text {
@@ -77,8 +80,8 @@
 
     }
 
-    .hago{
-        margin-top: 12%;
+    .hago {
+        margin-top: 15%;
     }
 
     .box-descripcion {
@@ -88,7 +91,7 @@
 
     .container-img-hola {
         margin-top: 10%;
-        width: 60%;
+        width: 70%;
     }
 }
 
@@ -111,7 +114,7 @@
 
 @media (max-width: 700px) {
 
-    .box-text{
+    .box-text {
         margin-bottom: 7%;
     }
 
@@ -120,7 +123,7 @@
 
     }
 
-    .hago{
+    .hago {
         margin-top: 10%;
     }
 
@@ -129,9 +132,22 @@
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
+    .box-titulo {
+        padding-bottom: 8%;
+    }
+
+    .box-descripcion {
+        padding-top: 7%;
+    }
+
+}
+
+@media (max-width: 375px) {
     .box-titulo {
         font-size: 1.3em;
+        padding-top: -10%;
+        margin-bottom: -7%;
 
     }
 
@@ -143,6 +159,22 @@
         font-size: 0.9em;
     }
 
+    .box-nombre {
+        margin-top: 10%;
+    }
+
+    .hago {
+        margin-top: 25%;
+    }
+
+    .container-img-hola {
+        margin-top: 15%;
+    }
 }
+
+    @media (max-width:315px) {
+        .container-hola {}
+    }
+
 
 /*Fin RESPONSIVE*/

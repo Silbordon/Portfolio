@@ -40,6 +40,8 @@ border-radius: 10px;
 border: 2px solid rgb(219, 212, 212);
 margin-top: 3%;
 cursor: pointer;
+transition: transform 1s;
+
 
 
 }
@@ -71,6 +73,7 @@ color: rgb(6, 41, 48);
 
 .item-proyecto:hover{
 border: 2px solid rgb(92, 89, 89); 
+transform: skewX(-3deg);
 }
 
 
