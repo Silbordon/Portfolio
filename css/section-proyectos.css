@@ -124,7 +124,7 @@ transform: skewX(-3deg);
   @media (max-width:710px){
     .container-proyectos{
         padding-bottom: 20%;
-        padding-top: 20%;
+        padding-top: 30%;
     }
     
     .box-items-proyectos{
