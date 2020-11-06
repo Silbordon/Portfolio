@@ -73,7 +73,7 @@ color: rgb(6, 41, 48);
 
 .item-proyecto:hover{
 border: 2px solid rgb(92, 89, 89); 
-transform: skewX(-3deg);
+transform: skewX(-5deg);
 }
 
 

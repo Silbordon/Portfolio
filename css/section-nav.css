@@ -25,13 +25,14 @@
 .link-menu {
     color: black;
     font-size: 1.2em;
-    font-weight: 300;
+    font-weight: 500;
 
 }
 
 .link-menu:hover {
     color: #24564F;
     text-decoration: underline;
+    font-weight: 600;
 
 }
 
@@ -97,11 +98,6 @@
         display: none;
       }
     
-      
-      
-   
-     
-      
       #label-icons{
         display: flex;
         justify-content: center;
