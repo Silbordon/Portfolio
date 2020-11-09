@@ -13,11 +13,11 @@
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/section-nav.css">
-    <link rel="stylesheet" href="./css/section-hola.css">
-    <link rel="stylesheet" href="./css/section-conocimientos.css">
-    <link rel="stylesheet" href="./css/section-cita.css">
-    <link rel="stylesheet" href="./css/section-proyectos.css">
-    <link rel="stylesheet" href="./css/section-contacto.css">
+    <link rel="stylesheet" href="./css/section-aboutme.css">
+    <link rel="stylesheet" href="./css/section-knowledge.css">
+    <link rel="stylesheet" href="./css/section-quote.css">
+    <link rel="stylesheet" href="./css/section-proyects.css">
+    <link rel="stylesheet" href="./css/section-contact.css">
     <link rel="stylesheet" href="./css/section-footer.css">
     <title>Silvina Bordón</title>
 </head>
@@ -27,164 +27,165 @@
         <!--Empieza la seccion de nav-->
         <header>
             <nav class="container-nav">
-                <input type="checkbox" id="menu-hamburguesa">
-                <label for="menu-hamburguesa" id="label-icons"> ☰ </label>
+                <input type="checkbox" id="dropdown-menu">
+                <label for="dropdown-menu" id="label-icons"> ☰ </label>
                 <ul class="container-menu">
-                    <li><a class="link-menu" href="#sectionhola">HOLA</a></li>
-                    <li><a class="link-menu" href="#sectionconocimientos">CONOCIMIENTOS</a></li>
-                    <li><a class="link-menu" href="#sectionproyectos">PROYECTOS</a></li>
-                    <li><a class="btn contacto" href="#sectioncontactos">CONTACTO</a></li>
+                    <li><a class="link-menu" href="#sectionaboutme">HOLA</a></li>
+                    <li><a class="link-menu" href="#sectionknowledge">CONOCIMIENTOS</a></li>
+                    <li><a class="link-menu" href="#sectionproyects">PROYECTOS</a></li>
+                    <li><a class="btn contact" href="#sectioncontacts">CONTACTO</a></li>
                 </ul>
             </nav>
         </header>
         <!--Termina la seccion de nav-->
 
-        <!--Empieza la seccion Hola-->
+        <!--Empieza la seccion About Me-->
 
-        <section id="sectionhola" class="container-hola">
+        <section id="sectionaboutme" class="container-aboutme">
             <article class="box-text">
-                <p class="box-titulo">¡Hola! Soy</p>
-                <h1 class="box-nombre">Silvina Bordón</h1>
-                <p class="box-descripcion">Desarrolladora junior, bioquímica, mamá, esposa y fanática de Series. </p>
+                <p class="box-title">¡Hola! Soy</p>
+                <h1 class="box-name">Silvina Bordón</h1>
+                <p class="box-description">Desarrolladora junior, bioquímica, mamá, esposa y fanática de Series. </p>
                 <button class="">
-                    <a class="btn hago" href="#sectionproyectos">LO QUE HAGO</a>
+                    <a class="btn do" href="#sectionproyects">LO QUE HAGO</a>
                 </button>
             </article>
-            <figure class="container-img-hola">
+            <figure class="container-img-me">
                 <!--<img src="./images/undraw_working_late_pukg (1).svg" width="100%" alt="imagen de mujer trabajando">-->
 
                 <img src="./images/undraw_dev_focus_b9xo (3).svg" width="90%" alt="imagen de mujer trabajando">
             </figure>
         </section>
-        <!--Termina la seccion Hola-->
+        <!--Termina la seccion About Me-->
 
-        <!--Empieza la seccion Conocimientos-->
+        <!--Empieza la seccion knowledge-->
 
-        <section id="sectionconocimientos" class="container-conocimientos">
-            <article class="box-conocimientos">
+        <section id="sectionknowledge" class="container-knowledge">
+            <article class="box-knowledge">
                 <h2 class="section-title">Mis conocimientos</h2>
-                <p class="p-box-conocimientos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod cupiditate
+                <p class="p-box-knowledge">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod cupiditate
                     excepturi adipisci laborum,
                     eligendi, ducimus ab autem.</p>
             </article>
-            <article class="box-conocimientos-items">
-                <div class="item-conocimientos">
+
+            <article class="box-knowledge-items">
+                <div class="item-knowledge">
                     <i class="devicon-html5-plain colored tamaño"></i>
                     <p class="p-item">HTML 5</p>
                 </div>
-                <div class="item-conocimientos">
+                <div class="item-knowledge">
                     <i class="devicon-css3-plain colored tamaño"></i>
                     <P class="p-item">CSS 3</P>
                 </div>
-                <div class="item-conocimientos">
+                <div class="item-knowledge">
                     <i class="devicon-sass-original colored tamaño"></i>
                     <P class="p-item">Sass</P>
                 </div>
-                <div class="item-conocimientos">
+                <div class="item-knowledge">
                     <i class="devicon-javascript-plain colored tamaño"></i>
                     <p class="p-item">JavaScript</p>
                 </div>
-                <div class="item-conocimientos">
+                <div class="item-knowledge">
                     <i class="devicon-react-original colored tamaño"></i>
                     <p class="p-item">React</p>
                 </div>
-                <div class="item-conocimientos">
+                <div class="item-knowledge">
                     <i class="devicon-git-plain colored tamaño"></i>
                     <p class="p-item">GIT</p>
                 </div>
             </article>
         </section>
 
-        <!--Termina la seccion Conocimientos-->
+        <!--Termina la seccion knowledge-->
 
-        <!--Empieza la seccion Cita-->
+        <!--Empieza la seccion quote-->
 
-        <section class="container-cita">
-            <div><i class="fas fa-quote-right quote-icon comillas"></i></div>
-            <blockquote class="box-cita">
-                <p class="p-cita">El éxito no es definitivo, el fracaso no es fatal: lo que realmente cuenta es el valor
+        <section class="container-quote">
+            <div><i class="fas fa-quote-right quote-icon quotation"></i></div>
+            <blockquote class="box-quote">
+                <p class="p-quote">El éxito no es definitivo, el fracaso no es fatal: lo que realmente cuenta es el valor
                     para continuar.</p>
             </blockquote>
-            <h2 class="h2-cita">Winston Churchill</h2>
+            <h2 class="h2-quote">Winston Churchill</h2>
         </section>
 
-        <!--Termina la seccion Cita-->
+        <!--Termina la seccion quote-->
 
-        <!--Empieza la seccion Proyectos-->
+        <!--Empieza la seccion Proyects-->
 
-        <section id="sectionproyectos" class="container-proyectos">
-            <article class="box-conocimientos">
+        <section id="sectionproyects" class="container-proyects">
+            <article class="box-knowledge">
                 <h2 class="section-title">Mis proyectos</h2>
-                <p class="p-box-conocimientos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod cupiditate
+                <p class="p-box-knowledge">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod cupiditate
                     excepturi adipisci laborum,
                     eligendi, ducimus ab autem.</p>
             </article>
 
-            <article class="box-items-proyectos">
-                <div class="item-proyecto">
+            <article class="box-items-proyects">
+                <div class="item-proyect">
                     <a href="#">
                         <figure class="i-proyect">
-                            <img class="width-proyecto-img" src="./images/undraw_Portfolio_re_qwm5.svg"
+                            <img class="width-proyect-img" src="./images/undraw_Portfolio_re_qwm5.svg"
                                 alt="Imagen de portfolio">
                             <figcaption class="p-proyecto">Portfolio</figcaption>
                         </figure>
                     </a>
                 </div>
 
-                <div class="item-proyecto">
+                <div class="item-proyect">
                     <a href="#" target="_blank">
                         <figure class="i-proyect">
-                            <img class="width-proyecto-img" src="./images/undraw_podcast_q6p7.svg"
+                            <img class="width-proyect-img" src="./images/undraw_podcast_q6p7.svg"
                                 alt="imagen de podcast">
                             <figcaption class="p-proyecto">Podcast</figcaption>
                         </figure>
                     </a>
                 </div>
 
-                <div class="item-proyecto">
+                <div class="item-proyect">
                     <a href="#">
                         <figure class="i-proyect">
-                            <img class="width-proyecto-img" src="./images/undraw_my_documents_ym8x.svg"
+                            <img class="width-proyect-img" src="./images/undraw_my_documents_ym8x.svg"
                                 alt="imagen de archivos">
                             <figcaption class="p-proyecto">Mis documentos</figcaption>
                         </figure>
                     </a>
                 </div>
 
-                <div class="item-proyecto">
+                <div class="item-proyect">
                     <a href="#">
                         <figure class="i-proyect">
-                            <img class="width-proyecto-img" src="./images/undraw_work_together_h63l.svg"
+                            <img class="width-proyect-img" src="./images/undraw_work_together_h63l.svg"
                                 alt="imagen de trabajo en equipo">
                             <figcaption class="p-proyecto">Trabajo en Equipo</figcaption>
                         </figure>
                     </a>
                 </div>
 
-                <div class="item-proyecto">
+                <div class="item-proyect">
                     <a href="#">
                         <figure class="i-proyect">
-                            <img class="width-proyecto-img" src="./images/undraw_travel_plans_li01.svg"
+                            <img class="width-proyect-img" src="./images/undraw_travel_plans_li01.svg"
                                 alt="imagen de una landing page">
                             <figcaption class="p-proyecto">Landing Page</figcaption>
                         </figure>
                     </a>
                 </div>
 
-                <div class="item-proyecto">
+                <div class="item-proyect">
                     <a href="#">
                         <figure class="i-proyect">
-                            <img class="width-proyecto-img" src="./images/undraw_file_manager_j85s.svg"
+                            <img class="width-proyect-img" src="./images/undraw_file_manager_j85s.svg"
                                 alt="imagen de Administrador">
                             <figcaption class="p-proyecto">Administrador de archivos</figcaption>
                         </figure>
                     </a>
                 </div>
 
-                <div class="item-proyecto">
+                <div class="item-proyect">
                     <a href="#">
                         <figure class="i-proyect">
-                            <img class="width-proyecto-img" src="./images/undraw_working_late_pukg (1).svg"
+                            <img class="width-proyect-img" src="./images/undraw_working_late_pukg (1).svg"
                                 alt="imagen de mujer diseñando">
                             <figcaption class="p-proyecto">Diseños</figcaption>
                         </figure>
@@ -193,119 +194,119 @@
             </article>
         </section>
 
-        <!--Termina la seccion Proyectos-->
+        <!--Termina la seccion Proyects-->
 
         <!--Empieza la seccion Contacto-->
 
-        <section id="sectioncontactos" class="container-contactos">
+        <section id="sectioncontacts" class="container-contacts">
             <div class="container-card">
-                <article class="box-contactame">
-                    <div class="contactame-text">
+                <article class="box-contact-me">
+                    <div class="contact-me-text">
                         <h2 class="section-title">Contactame</h2>
-                        <p class="p-box-contactos">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod culpa
+                        <p class="p-box-contacts">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod culpa
                             voluptas delectus cupiditate, est iusto quo tempore modi provident porro repellat
                             perferendis amet ea eos velit quia harum
                             doloremque unde?</p>
                     </div>
-                    <ul class="box-redes">
-                        <li class="red-social">
-                            <a class="red-color-a" href="https://twitter.com/?lang=es" target="_blank">
-                                <i class="fab fa-twitter red-i"></i>
+                    <ul class="box-networks">
+                        <li class="social-network">
+                            <a class="net-color-a" href="https://twitter.com/?lang=es" target="_blank">
+                                <i class="fab fa-twitter net-i"></i>
                                 @SilviBordon
                             </a>
                         </li>
 
-                        <li class="red-social">
-                            <a class="red-color-a" href="https://github.com/Silbordon/MyApp" target="_blank">
-                                <i class="fab fa-github-alt red-i"> </i>
+                        <li class="social-network">
+                            <a class="net-color-a" href="https://github.com/Silbordon/MyApp" target="_blank">
+                                <i class="fab fa-github-alt net-i"> </i>
                                 SilBordon
                             </a>
                         </li>
 
-                        <li class="red-social">
-                            <a class="red-color-a" href="https://www.linkedin.com/in/silvina-bordon-7b30bba7/"
+                        <li class="social-network">
+                            <a class="net-color-a" href="https://www.linkedin.com/in/silvina-bordon-7b30bba7/"
                                 target="_blank">
-                                <i class="fab fa-linkedin-in red-i"></i>
+                                <i class="fab fa-linkedin-in net-i"></i>
                                 Silvina Bordon
                             </a>
                         </li>
 
-                        <li class="red-social">
-                            <a class="red-color-a" href="mailto:silbordon89@gmail.com" target="_blank">
-                                <i class="far fa-envelope red-i"></i>
+                        <li class="social-network">
+                            <a class="net-color-a" href="mailto:silbordon89@gmail.com" target="_blank">
+                                <i class="far fa-envelope net-i"></i>
                                 silbordon.89@gmail.com
                             </a>
                         </li>
                     </ul>
                 </article>
 
-                <article class="box-escribime">
+                <article class="box-write-me">
                     <h2 class="section-title">Escribime</h2>
                     <form class="form" action="">
-                        <div class="card-form">
-                            <div class="card-form-nombre">
+                        <div class="card-form-name">
+                            <div class="card-form">
                                 <label class="title-form" for="nombre">Nombre *</label>
                                 <input class="card-input" type="text" id="nombre" name="nombre"
                                     placeholder="p. ej.:Silvina" required />
                             </div>
-                            <div class="card-form-nombre">
+                            <div class="card-form">
                                 <label class="title-form" for="apellido">Apellido *</label>
                                 <input class="card-input" type="text" id="apellido" name="apellido"
                                     placeholder="p. ej.:Bordon" required />
                             </div>
                         </div>
 
-                        <div class="card-form-nombre">
+                        <div class="card-form">
                             <label class="title-form" for="email">Email *</label>
                             <input class="card-input" id="email" type="email" name="email"
                                 placeholder="p. ej.:silbordon.89@gmail.com" required />
                         </div>
-                        <div class="card-form-nombre">
+                        <div class="card-form">
                             <label class="title-form" for="mensaje">Mensaje *</label>
                             <textarea class="card-input" name="mensaje" id="mensaje"
                                 placeholder="Ingrese su mensaje aqui" cols="30" rows="10" required></textarea>
                         </div>
 
-                        <button type="submit" class="btn enviar"> Enviar</button>
+                        <button type="submit" class="btn send"> Enviar</button>
                     </form>
                 </article>
             </div>
         </section>
-        <!--Termina la seccion Contacto-->
+        <!--Termina la seccion Contact-->
 
         <!--Empieza la seccion Footer-->
         <footer class="container-footer">
             <div>
                 <ul class="container-nav-footer">
-                    <li><a class="a-text-footer" href="#sectionhola">HOLA</a></li>
-                    <li><a class="a-text-footer" href="#sectionconocimientos">CONOCIMIENTOS</a></li>
-                    <li><a class="a-text-footer" href="#sectionproyectos">PROYECTOS</a></li>
-                    <li><a class="a-text-footer" href="#sectioncontactos">CONTACTO</a></li>
+                    <li><a class="a-text-footer" href="#sectionaboutme">HOLA</a></li>
+                    <li><a class="a-text-footer" href="#sectionknowledge">CONOCIMIENTOS</a></li>
+                    <li><a class="a-text-footer" href="#sectionproyects">PROYECTOS</a></li>
+                    <li><a class="a-text-footer" href="#sectioncontacts">CONTACTO</a></li>
                 </ul>
             </div>
             <div>
-                <ul class="container-red-footer">
+                <ul class="container-net-footer">
                     <li>
                         <a href="https://twitter.com/?lang=es" target="_blank">
-                            <i class="fab fa-twitter redsocial"></i>
+                            <i class="fab fa-twitter socialnetwork"></i>
                         </a>
                     </li>
 
                     <li>
                         <a href="https://github.com/" target="_blank">
-                            <i class="fab fa-github-alt redsocial"></i>
+                            <i class="fab fa-github-alt socialnetwork"></i>
                         </a>
                     </li>
 
                     <li>
                         <a href="https://www.linkedin.com/feed/" target="_blank">
-                            <i class="fab fa-linkedin-in redsocial"></i>
+                            <i class="fab fa-linkedin-in socialnetwork"></i>
                         </a>
                     </li>
 
                     <li>
                         <a href="https://mail.google.com/" target="_blank">
-                            <i class="far fa-envelope redsocial"></i>
+                            <i class="far fa-envelope socialnetwork"></i>
                         </a>
                     </li>
                 </ul>
@@ -314,8 +315,9 @@
                 <p class="text-footer">Hecho con 💗 por Silvi</p>
             </div>
         </footer>
+         <!--Termina la seccion Footer-->
     </div>
-    <!--Termina la seccion Footer-->
+   
 </body>
 
 </html>

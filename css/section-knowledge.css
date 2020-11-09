@@ -1,8 +1,8 @@
-/*Estilos section-conocimientos*/
+/*Estilos section-knowledge*/
 
 /*Vista DESTOCK*/
 
-.container-conocimientos{
+.container-knowledge{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,12 +12,12 @@
     padding-top: 10%;
     padding-bottom: 10%;
     background-color: rgb(247, 236, 236);
-    box-shadow: inset -5px -2px 25px -15px rgba(0,0,0,1);
     width: 100%;
+    box-shadow: inset -5px -2px 12px -6px rgba(0,0,0,1);
 
 }
 
-.box-conocimientos{
+.box-knowledge{
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -31,7 +31,7 @@ text-align: center;
 
 }
 
-.p-box-conocimientos{
+.p-box-knowledge{
 
 font-size: 1.1em;
 text-align: center;
@@ -39,7 +39,7 @@ margin-top: 7%;
 width: 400px;
 }
 
-.box-conocimientos-items{
+.box-knowledge-items{
 display: flex;
 flex-flow: wrap;
 justify-content: space-between;
@@ -49,7 +49,7 @@ background-color: rgb(247, 236, 236);
 
 }
 
-.item-conocimientos{
+.item-knowledge{
 width: 250px;
 height: 220px;
 border-radius: 10px;
@@ -76,7 +76,7 @@ font-size: 1.4em;
 font-weight: 700;
 }
 
-.item-conocimientos:hover{
+.item-knowledge:hover{
   color:  #52978e;
   -webkit-box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
   box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
@@ -87,28 +87,34 @@ font-weight: 700;
 
 /*Comienzo RESPONSIVE*/
 
-@media (max-width:900px){
+@media (max-width:1000px){
 
-  .box-conocimientos-items{
+  .container-knowledge{
+  padding-top: 17%;
+  padding-bottom: 20%;
+  }
+
+  .box-knowledge-items{
     width: 520px;
   }
 
 }
 
 @media (max-width:600px){
-  .container-conocimientos{
+  .container-knowledge{
     padding-bottom: 20%;
     padding-top: 30%;
   }
 
-  .box-conocimientos-items{
-    width: 400px;
+  .box-knowledge-items{
+    width: 300px;
     align-items: center;
     flex-wrap: nowrap;
     flex-direction: column;
+    padding-bottom: 10%;
   }
 
-  .item-conocimientos{
+  .item-knowledge{
     margin-top: 6%;
   }
 
@@ -116,12 +122,14 @@ font-weight: 700;
     font-size: 2.1em;
   }
 
-  .p-box-conocimientos{
+  .p-box-knowledge{
     font-size: 0.9em;
     width: 350px;
   }
-
-
 }
+
+
+
+
 
 /*Fin RESPONSIVE*/

@@ -1,15 +1,15 @@
-/*Estilos section-contacto*/
+/*Estilos section-contact*/
 
 /*Vista DESTOCK*/
 
-/*Section CONTACTO-general*/
+/*Section CONTACT-general*/
 
-.container-contactos {
+.container-contacts {
     width: 100%;
     display: flex;
     justify-content: center;
     background-color: rgb(247, 236, 236);
-    box-shadow: inset -5px -2px 25px -15px rgba(0, 0, 0, 1);
+    box-shadow: inset -5px -2px 12px -6px rgba(0,0,0,1);
     z-index: -10000;
     padding-left: 7%;
     padding-right: 7%;
@@ -22,52 +22,52 @@
     background-color: white;
     width: 1100px;
     height: 100%;
-    border: 1px solid rgb(192, 184, 184);
+    border: 2px solid rgb(192, 184, 184);
     border-radius: 15px;
     display: flex;
     flex-direction: row;
     padding: 7%;
 }
 
-/*Section contactame*/
-.box-contactame {
+/*Section contact-me*/
+.box-contact-me {
     width: 50%;
     display: flex;
     flex-direction: column;
 
 }
 
-.contactame-text {
+.contact-me-text {
     justify-content: flex-start;
     display: flex;
     flex-direction: column;
     width: 80%;
 }
 
-.p-box-contactos {
+.p-box-contacts {
     font-size: 1.1em;
     margin-top: 7%;
     margin-bottom: 7%;
 }
 
-.box-redes {
+.box-networks {
     margin-left: 5%;
     margin-top: 5%;
     width: 70%;
 }
 
-.red-social {
+.social-network {
     margin-bottom: 15%;
 }
 
 
-.red-i {
+.net-i {
     margin-right: 5%;
     color: #24564F;
     font-size: 1.2em;
 }
 
-.red-color-a {
+.net-color-a {
     color: black;
     font-size: 1em;
     font-weight: 500;
@@ -75,14 +75,14 @@
 
 
 
-.red-social:hover .red-color-a {
+.social-network:hover .net-color-a {
     color: #24564F;
     font-weight: 600;
 }
 
 
 
-.red-social:hover .red-i {
+.social-network:hover .net-i {
     color: white;
     border-radius: 50%;
     border: 1px solid #24564F;
@@ -91,7 +91,7 @@
 }
 
 
-.red-social:active {
+.social-network:active {
     background-color: rgb(250, 237, 237);
     border-radius: 20px;
     line-height: 15px;
@@ -100,10 +100,10 @@
 }
 
 
-/*Section Escribime*/
+/*Section Write Me*/
 
 
-.box-escribime {
+.box-write-me {
     width: 50%;
 }
 
@@ -113,13 +113,13 @@
     margin-top: 5%;
 }
 
-.card-form {
+.card-form-name {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.card-form-nombre {
+.card-form {
     display: flex;
     flex-direction: column;
     margin-top: 2%;
@@ -162,7 +162,7 @@
     background-color: rgb(247, 236, 236);
 }
 
-.enviar {
+.send {
     font-size: 1.2em;
     padding: 2% 10%;
     margin-top: 5%;
@@ -176,7 +176,7 @@
 /*Comienzo RESPONSIVE*/
 
 @media(max-width:1200px) {
-    .container-contactos {
+    .container-contacts {
         padding-left: 5%;
         padding-right: 5%;
     }
@@ -189,12 +189,17 @@
         width: 100%;
     }
 
-    .box-escribime {
+    .box-write-me {
         width: 440px;
     }
 }
 
-@media (max-width:950px) {
+@media (max-width: 1020px ){
+    .box-networks {
+        width: 80%;
+    }
+}
+@media (max-width:960px) {
     .container-card {
         flex-direction: column;
         justify-content: left;
@@ -202,19 +207,19 @@
         padding-bottom: 15%;
     }
 
-    .box-contactame {
+    .box-contact-me {
         width: 100%;
 
     }
 
-    .box-contactame .section-title,
-    .box-escribime .section-title {
+    .box-contact-me .section-title,
+    .box-write-me .section-title {
         text-align: left;
         font-size: 2.5em;
     }
 
 
-    .box-redes {
+    .box-network {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
@@ -223,17 +228,18 @@
         margin-bottom: 8%;
     }
 
-    .red-social {
+    .social-network {
         width: 50%;
         margin-bottom: 6%;
     }
 
-    .red-color-a {
+    .net-color-a {
         font-size: 0.9em;
     }
 
-    .box-escribime {
+    .box-write-me {
         width: 90%;
+        margin-top: 10%;
     }
 
 }
@@ -241,14 +247,14 @@
 
 @media(max-width:700px) {
 
-    .container-contactos{
+    .container-contacts{
      padding-top: 15%;
     }
-    .card-form-nombre .card-input {
+    .card-form .card-input {
         width: 100%;
     }
 
-    .red-i {
+    .net-i {
         font-size: 15px;
         margin-right: 1%;
     }
@@ -256,32 +262,39 @@
 
 
 @media (max-width: 670px) {
-    .card-form {
+    .card-form-name {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
 
-    .card-form-nombre .card-input {
+    .card-form .card-input {
         width: 100%;
     }
 
-    .box-redes {
+    .box-network {
         flex-direction: column;
     }
 
-    .red-i {
+    .net-i {
         margin-right: 4%;
 
     }
 
-    .red-social {
+    .social-network {
         width: 100%;
     }
 
-    .p-box-contactos{
+    .p-box-contacts{
         font-size: 0.9em;
     }
 }
 
+@media (max-width: 400px){
+
+    .container-card{
+        margin-top: 20%;
+        margin-bottom: 20%;
+    }
+}
 /*Fin RESPONSIVE*/

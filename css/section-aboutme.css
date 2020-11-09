@@ -2,7 +2,7 @@
 
 /*Vista DESTOCK*/
 
-.container-hola {
+.container-aboutme{
     display: flex;
     flex-direction: row;
     height: 100vh;
@@ -12,6 +12,8 @@
     padding-right: 7%;
     margin-bottom: 10%;
     justify-content: space-between;
+    
+
 }
 
 .box-text {
@@ -25,31 +27,31 @@
 }
 
 
-.box-titulo {
+.box-title {
     font-size: 1.8em;
     font-weight: 600;
 }
 
-.box-nombre {
+.box-name {
     font-size: 2.9em;
     font-weight: 700;
     color: darkcyan;
     font-style: italic;
 }
 
-.box-descripcion {
+.box-description {
     font-size: 1.1em;
     padding-top: 4%;
     padding-bottom: 8%;
     line-height: 25px;
 }
 
-.hago {
+.do {
     font-size: 1.3em;
     font-weight: 400;
 }
 
-.container-img-hola {
+.container-img-me {
     display: flex;
     justify-content: flex-end;
     width: 50%;
@@ -63,13 +65,14 @@
 /*Comienzo RESPONSIVE*/
 @media (max-width: 1000px) {
 
-    .container-hola {
+    .container-aboutme{
         flex-direction: column;
         justify-content: center;
         align-items: center;
         padding-top: 30%;
         padding-left: 0;
         padding-right: 0;
+        padding-bottom: 20%;
 
     }
 
@@ -79,33 +82,33 @@
 
     }
 
-    .hago {
+    .do {
         margin-top: 15%;
     }
 
-    .box-descripcion {
+    .box-description {
         margin-bottom: 10%;
         text-align: center;
     }
 
-    .container-img-hola {
+    .container-img-me {
         margin-top: 10%;
-        width: 70%;
+        width: 40%;
     }
 }
 
 
 @media (max-width:800px) {
 
-    .box-titulo {
+    .box-title {
         font-size: 1.6em;
     }
 
-    .box-nombre {
+    .box-name {
         font-size: 2.3em;
     }
 
-    .box-descripcion {
+    .box-description {
         font-size: 1.0em;
     }
 }
@@ -117,65 +120,77 @@
         margin-bottom: 7%;
     }
 
-    .box-titulo {
+    .box-title {
         font-size: 1.4em;
 
     }
 
-    .hago {
+    .do {
         margin-top: 10%;
     }
 
-    .box-nombre {
+    .box-name {
         font-size: 1.9em;
     }
+
+    .container-img-me {
+     min-width: 60%;   
+    }
+
 }
 
 
 
 @media (max-width: 500px) {
-    .box-titulo {
+    .box-title {
         margin-top: -10%;
         padding-bottom: 8%;
     }
 
-    .box-descripcion {
+    .box-description {
         padding-top: 7%;
     }
 
+   
 }
 
 
 
 @media (max-width: 375px) {
   
-    .box-titulo {
+    .box-title {
         font-size: 1.3em;
         padding-top: -10%;
         margin-bottom: -7%;
 
     }
 
-    .box-nombre {
+    .box-name {
         font-size: 1.7em;
     }
 
-    .box-descripcion {
+    .box-description {
         font-size: 0.9em;
     }
 
-    .box-nombre {
+    .box-name {
         margin-top: 10%;
     }
 
-    .hago {
+    .do {
         margin-top: 25%;
     }
 
-    .container-img-hola {
+    .container-img-me {
         margin-top: 15%;
     }
 }
 
+@media (max-width: 330px){
+  .container-aboutme{
+      padding-top: 100%;
+      padding-bottom: 80%;
+  }
+}
 
 /*Fin RESPONSIVE*/
