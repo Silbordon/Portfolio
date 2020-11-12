@@ -17,7 +17,7 @@ Este es mi Portafolio personal donde podrás encontrar no solo que lenguajes y t
 
 <br>
 
- - Ir al [repositorio](https://silbordon.github.io/Portfolio/)  
+ - Ir al [repositorio](https://github.com/Silbordon/Portfolio)  
  - Hacer click al botón de ![imagen](./images/Fork.PNG)
  - Hacer click al botón de ![code](./images/Code.PNG)
 
