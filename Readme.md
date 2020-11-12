@@ -22,7 +22,10 @@ Este es mi Portafolio personal donde podrás encontrar no solo que lenguajes y t
  - Hacer click al botón de ![code](./images/Code.PNG)
 
  - Copiar la URL haciendo click al boton ![url](./images/Copiar.PNG)
- - Abrir tu terminal y poner el comando de *git clone url*
+ - Abrir tu terminal y poner el comando de 
+   ```
+   git clone <url> 
+   ```
  - Entrar a la carpeta del proyecto y abrirlo en tu IDE
 
 
