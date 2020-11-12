@@ -1,8 +1,7 @@
-# **Portfalio de Silvina Bordón** 💕
+
+# **Portafolio de Silvina Bordón** 💕
  
 Este es mi Portafolio personal donde podrás encontrar no solo que lenguajes y tecnologias manejo, sino tambien los proyectos desarrollados durante mi formación.
-
-<br>
 
 #### Si quieres verlo puedes hacer click en este [enlace](https://silbordon.github.io/Portfolio/) o puedes verlo desde [aca](https://silly-wozniak-52de89.netlify.app/)
 
