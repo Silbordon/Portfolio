@@ -157,10 +157,13 @@
 
 
 @media (max-width: 375px) {
+
+    .container-aboutme{
+        padding-top: 50%;
+    }
   
     .box-title {
         font-size: 1.3em;
-        padding-top: -10%;
         margin-bottom: -7%;
 
     }
