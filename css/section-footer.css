@@ -71,12 +71,16 @@ color: white;
 
 /*Comienzo RESPONSIVE*/
 
-@media(max-width: 700px){
-
+@media (max-width: 1200px){
     .container-footer{
         height: 30vh;
         justify-content: space-around;
+        
     }
+}
+
+@media(max-width: 700px){
+
     .container-nav-footer{
         display: none;
     }

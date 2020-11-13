@@ -63,16 +63,17 @@
 
 
 /*Comienzo RESPONSIVE*/
-@media (max-width: 1000px) {
+
+@media (max-width: 1200px) {
 
     .container-aboutme{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding-top: 30%;
+        padding-top: 40%;
         padding-left: 0;
         padding-right: 0;
-        padding-bottom: 20%;
+        padding-bottom: 30%;
 
     }
 

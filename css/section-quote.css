@@ -21,7 +21,7 @@
 font-size: 5em;
 }
 
-.box-cita{
+.box-quote{
 width: 70%;
 margin-top: 7%;
 margin-bottom: 7%;
@@ -41,3 +41,14 @@ font-size: 2em;
 
 /*Comienzo RESPONSIVE*/
 
+@media (max-width: 1200px){
+    .container-quote{
+        height: 60vh;
+    }
+}
+
+@media (max-width: 750px){
+    .container-quote{
+        height: 100vh;
+    }
+}
