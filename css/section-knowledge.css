@@ -2,84 +2,84 @@
 
 /*Vista DESTOCK*/
 
-.container-knowledge{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    z-index: -10000;
-    padding-left: 7%;
-    padding-right: 7%;
-    padding-top: 10%;
-    padding-bottom: 10%;
-    background-color: rgb(247, 236, 236);
-    width: 100%;
-    box-shadow: inset -5px -2px 12px -6px rgba(0,0,0,1);
+.container-knowledge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: -10000;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  background-color: rgb(247, 236, 236);
+  width: 100%;
+  box-shadow: inset -5px -2px 12px -6px rgba(0, 0, 0, 1);
 
 }
 
-.box-knowledge{
-display: flex;
-flex-direction: column;
-align-items: center;
-height: 40%;
+.box-knowledge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 40%;
 }
 
-.section-title{
-font-size: 3.0em;
-font-weight: 900;
-text-align: center;
-
-}
-
-.p-box-knowledge{
-
-font-size: 1.1em;
-text-align: center;
-margin-top: 7%;
-width: 400px;
-}
-
-.box-knowledge-items{
-display: flex;
-flex-flow: wrap;
-justify-content: space-between;
-width: 800px;
-margin-top: 5%;
-background-color: rgb(247, 236, 236);
+.section-title {
+  font-size: 3.0em;
+  font-weight: 900;
+  text-align: center;
 
 }
 
-.item-knowledge{
-width: 250px;
-height: 220px;
-border-radius: 10px;
-border: 2px solid gray;
-background-color: white;
-display: flex;
-justify-content: center;
-flex-direction: column;
-align-items: center;
-margin-top: 3%;
-cursor: pointer;
--webkit-transition: 1s linear;
-transition: 1s linear;
+.p-box-knowledge {
+
+  font-size: 1.1em;
+  text-align: center;
+  margin-top: 7%;
+  width: 400px;
+}
+
+.box-knowledge-items {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  width: 800px;
+  margin-top: 5%;
+  background-color: rgb(247, 236, 236);
 
 }
 
-.tamaño{
-font-size: 6em;
+.item-knowledge {
+  width: 250px;
+  height: 220px;
+  border-radius: 10px;
+  border: 2px solid gray;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3%;
+  cursor: pointer;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+
 }
 
-.p-item{
-margin-top: 6%;    
-font-size: 1.4em;
-font-weight: 700;
+.tamaño {
+  font-size: 6em;
 }
 
-.item-knowledge:hover{
-  color:  #52978e;
-  -webkit-box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
-  box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+.p-item {
+  margin-top: 6%;
+  font-size: 1.4em;
+  font-weight: 700;
+}
+
+.item-knowledge:hover {
+  color: #52978e;
+  -webkit-box-shadow: 10px 10px 14px 2px rgba(0, 0, 0, 0.47);
+  box-shadow: 10px 10px 14px 2px rgba(0, 0, 0, 0.47);
 }
 
 /* Fin Vista DESTOCK*/
@@ -87,26 +87,26 @@ font-weight: 700;
 
 /*Comienzo RESPONSIVE*/
 
-@media (max-width:1000px){
+@media (max-width:1000px) {
 
-  .container-knowledge{
-  padding-top: 17%;
-  padding-bottom: 20%;
+  .container-knowledge {
+    padding-top: 17%;
+    padding-bottom: 20%;
   }
 
-  .box-knowledge-items{
+  .box-knowledge-items {
     width: 520px;
   }
 
 }
 
-@media (max-width:600px){
-  .container-knowledge{
+@media (max-width:600px) {
+  .container-knowledge {
     padding-bottom: 20%;
     padding-top: 30%;
   }
 
-  .box-knowledge-items{
+  .box-knowledge-items {
     width: 300px;
     align-items: center;
     flex-wrap: nowrap;
@@ -114,15 +114,15 @@ font-weight: 700;
     padding-bottom: 10%;
   }
 
-  .item-knowledge{
+  .item-knowledge {
     margin-top: 6%;
   }
 
-  .section-title{
+  .section-title {
     font-size: 2.1em;
   }
 
-  .p-box-knowledge{
+  .p-box-knowledge {
     font-size: 0.9em;
     width: 350px;
   }

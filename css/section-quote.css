@@ -2,7 +2,7 @@
 
 /*Vista DESTOCK*/
 
-.container-quote{
+.container-quote {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,27 +13,27 @@
     padding-right: 7%;
     padding-top: 10%;
     padding-bottom: 10%;
-    background-color:  #24564F;
+    background-color: #24564F;
     color: white;
 }
 
-.quotation{
-font-size: 5em;
+.quotation {
+    font-size: 5em;
 }
 
-.box-quote{
-width: 70%;
-margin-top: 7%;
-margin-bottom: 7%;
+.box-quote {
+    width: 70%;
+    margin-top: 7%;
+    margin-bottom: 7%;
 }
 
-.p-quote{
-text-align: center;
-font-size: 1.4em;
+.p-quote {
+    text-align: center;
+    font-size: 1.4em;
 }
 
-.h2-quote{
-font-size: 2em;
+.h2-quote {
+    font-size: 2em;
 }
 
 /* Fin Vista DESTOCK*/
@@ -41,14 +41,14 @@ font-size: 2em;
 
 /*Comienzo RESPONSIVE*/
 
-@media (max-width: 1200px){
-    .container-quote{
+@media (max-width: 1200px) {
+    .container-quote {
         height: 60vh;
     }
 }
 
-@media (max-width: 750px){
-    .container-quote{
+@media (max-width: 750px) {
+    .container-quote {
         height: 100vh;
     }
 }

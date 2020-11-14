@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
     background-color: rgb(247, 236, 236);
-    box-shadow: inset -5px -2px 12px -6px rgba(0,0,0,1);
+    box-shadow: inset -5px -2px 12px -6px rgba(0, 0, 0, 1);
     z-index: -10000;
     padding-left: 7%;
     padding-right: 7%;
@@ -145,19 +145,19 @@
     box-shadow: 0px 1px 45px -11px rgba(0, 0, 0, 1);
 }
 
-.card-input:valid{
+.card-input:valid {
     border: 1px solid #24564F;
 }
 
-.card-input:invalid{
+.card-input:invalid {
     border: 1px solid red;
 }
 
-.card-input:focus{
+.card-input:focus {
     box-shadow: 0px 1px 45px -11px rgba(0, 0, 0, 1);
 }
 
-.card-input:placeholder-shown{
+.card-input:placeholder-shown {
     border: 1px solid rgb(219, 212, 212);
     background-color: rgb(247, 236, 236);
 }
@@ -194,7 +194,7 @@
     }
 }
 
-@media (max-width: 1020px ){
+@media (max-width: 1020px) {
     .box-networks {
         width: 80%;
     }
@@ -247,9 +247,10 @@
 
 @media(max-width:700px) {
 
-    .container-contacts{
-     padding-top: 15%;
+    .container-contacts {
+        padding-top: 15%;
     }
+
     .card-form .card-input {
         width: 100%;
     }
@@ -285,16 +286,17 @@
         width: 100%;
     }
 
-    .p-box-contacts{
+    .p-box-contacts {
         font-size: 0.9em;
     }
 }
 
-@media (max-width: 400px){
+@media (max-width: 400px) {
 
-    .container-card{
+    .container-card {
         margin-top: 20%;
         margin-bottom: 20%;
     }
 }
+
 /*Fin RESPONSIVE*/

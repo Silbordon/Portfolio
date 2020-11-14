@@ -2,31 +2,31 @@
 
 /*Vista DESTOCK*/
 
-.container-footer{
-background-color: #24564F;
-display: flex;
-flex-direction: column;
-padding-top: 5%;
-padding-bottom: 5%;
-align-items: center;
-height: 45vh;
-justify-content: space-between;
+.container-footer {
+    background-color: #24564F;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    align-items: center;
+    height: 45vh;
+    justify-content: space-between;
 
 }
 
-.container-nav-footer{
-display: flex;
-flex-direction: row;
-justify-content: center;
+.container-nav-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-.a-text-footer{
-color: white;
-font-size: 1.1em;
-margin-left: 20px;
+.a-text-footer {
+    color: white;
+    font-size: 1.1em;
+    margin-left: 20px;
 }
 
-.container-net-footer{
+.container-net-footer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -34,35 +34,35 @@ margin-left: 20px;
 }
 
 
-.a-text-footer:hover{
+.a-text-footer:hover {
     text-decoration: line-through;
 }
 
 
-.socialnetwork{
-color:  #24564F;
-font-size: 1.4em;
-border: 1px solid white;
-border-radius: 50%;
-padding: 30%;
-background-color: white;
+.socialnetwork {
+    color: #24564F;
+    font-size: 1.4em;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 30%;
+    background-color: white;
 }
 
-.socialnetwork:hover{
-    border: 1px solid white ;
+.socialnetwork:hover {
+    border: 1px solid white;
     background-color: #24564F;
     color: white;
 }
 
-.socialnetwork:active{
-    border: 1px solid white ;
+.socialnetwork:active {
+    border: 1px solid white;
     background-color: #24564F;
     color: white;
 
 }
 
-.text-footer{
-color: white;
+.text-footer {
+    color: white;
 }
 
 /* Fin Vista DESTOCK*/
@@ -71,17 +71,17 @@ color: white;
 
 /*Comienzo RESPONSIVE*/
 
-@media (max-width: 1200px){
-    .container-footer{
+@media (max-width: 1200px) {
+    .container-footer {
         height: 30vh;
         justify-content: space-around;
-        
+
     }
 }
 
-@media(max-width: 700px){
+@media(max-width: 700px) {
 
-    .container-nav-footer{
+    .container-nav-footer {
         display: none;
     }
 
