@@ -38,7 +38,7 @@
 }
 
 .contact-me-text {
-    justify-content: flex-start;
+    align-items: flex-start;
     display: flex;
     flex-direction: column;
     width: 80%;
@@ -50,7 +50,7 @@
     margin-bottom: 7%;
 }
 
-.box-networks {
+.box-network {
     margin-left: 5%;
     margin-top: 5%;
     width: 70%;
@@ -105,6 +105,10 @@
 
 .box-write-me {
     width: 50%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+
 }
 
 .form {
@@ -195,7 +199,7 @@
 }
 
 @media (max-width: 1020px) {
-    .box-networks {
+    .box-network {
         width: 80%;
     }
 }
@@ -244,6 +248,11 @@
 
 }
 
+@media (max-width:840px){
+    .social-network{
+        width: 60%;
+    }
+}
 
 @media(max-width:700px) {
 

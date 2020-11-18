@@ -75,6 +75,7 @@
         padding-right: 0;
         padding-bottom: 30%;
 
+
     }
 
     .box-text {
@@ -94,12 +95,25 @@
 
     .container-img-me {
         margin-top: 10%;
-        width: 40%;
+        width: 50%;
+    }
+}
+
+@media (max-width:900px){
+    .container-aboutme{
+        position: relative;
+        padding-top: 50%;
     }
 }
 
 
 @media (max-width:800px) {
+
+    .container-aboutme{
+        position: relative;
+        padding-top: 50%;
+        
+    }
 
     .box-title {
         font-size: 1.6em;
@@ -117,8 +131,16 @@
 
 @media (max-width: 700px) {
 
+    .container-aboutme{
+        position: relative;
+        padding-top: 70%;
+        padding-bottom: 50%;
+
+    }
+
     .box-text {
         margin-bottom: 7%;
+
     }
 
     .box-title {
@@ -136,6 +158,7 @@
 
     .container-img-me {
         min-width: 60%;
+
     }
 
 }
@@ -160,7 +183,7 @@
 @media (max-width: 375px) {
 
     .container-aboutme {
-        padding-top: 50%;
+        padding-top: 70%;
     }
 
     .box-title {
