@@ -39,7 +39,7 @@ Este es mi Portafolio personal donde podrás encontrar no solo que lenguajes y t
 
 <br>
 
-![imagen](./images/fotofinal.png)
+![imagen](./images/capturafotofinal.png)
 
 <br>
 
