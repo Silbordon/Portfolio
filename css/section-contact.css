@@ -173,6 +173,38 @@
     outline: none;
 }
 
+#form-invalid,
+#form-valid,
+#form-valid2,
+#form-invalid2 {
+    display: none;
+}
+
+.form-invalid{
+    color: red;
+}
+
+.form-valid{
+    color: green;
+}
+
+.card-input:valid~#form-valid,
+.card-input:focus:invalid~#form-invalid{
+    display: block;
+    position: relative;
+    left: 85%;
+    top: -36px;
+    font-size: 1.2em;
+}
+
+.card-input:valid~#form-valid2,
+.card-input:focus:invalid~#form-invalid2{
+    display: block;
+    position: relative;
+    left: 92%;
+    top: -36px;
+    font-size: 1.1em;
+}
 /* Fin Vista DESTOCK*/
 
 
