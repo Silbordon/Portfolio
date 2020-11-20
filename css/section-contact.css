@@ -53,16 +53,15 @@
 .box-network {
     margin-left: 5%;
     margin-top: 5%;
-    width: 70%;
+    width: fit-content;
 }
 
 .social-network {
-    margin-bottom: 15%;
+    margin-bottom: 25%;
 }
 
 
 .net-i {
-    margin-right: 5%;
     color: #24564F;
     font-size: 1.2em;
 }
@@ -87,15 +86,15 @@
     border-radius: 50%;
     border: 1px solid #24564F;
     background-color: #24564F;
-    padding: 2%;
+    padding: 6px;
 }
 
 
 .social-network:active {
     background-color: rgb(250, 237, 237);
+    border-radius: 20px;
     padding: 1px 7px;
     box-shadow: 0px 1px 45px -11px rgba(0, 0, 0, 1);
-    border-radius: 20px;
 }
 
 
@@ -266,7 +265,7 @@
 
     .social-network {
         width: 50%;
-        margin-bottom: 6%;
+        margin-bottom: 7%;
     }
 
     .net-color-a {
@@ -286,7 +285,7 @@
     }
 }
 
-@media(max-width:700px) {
+@media(max-width:720px) {
 
     .container-contacts {
         padding-top: 15%;
@@ -299,6 +298,10 @@
     .net-i {
         font-size: 15px;
         margin-right: 1%;
+    }
+
+    .social-network{
+        width: 65%;
     }
 }
 
@@ -316,15 +319,15 @@
 
     .box-network {
         flex-direction: column;
+        width: 100%;
+        
     }
 
-    .net-i {
-        margin-right: 4%;
-
-    }
 
     .social-network {
-        width: 100%;
+        width: 70%;
+        margin-bottom: 10%;
+
     }
 
     .p-box-contacts {
@@ -332,11 +335,19 @@
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
 
     .container-card {
         margin-top: 20%;
         margin-bottom: 20%;
+    }
+
+    .box-network{
+        width: 90%;
+    }
+
+    .social-network{
+        width: 100%;
     }
 
 }
