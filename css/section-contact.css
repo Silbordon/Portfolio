@@ -171,6 +171,7 @@
     padding: 2% 10%;
     margin-top: 5%;
     outline: none;
+    cursor: pointer;
 }
 
 #form-invalid,
@@ -338,6 +339,7 @@
         margin-top: 20%;
         margin-bottom: 20%;
     }
+
 }
 
 /*Fin RESPONSIVE*/

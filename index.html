@@ -9,16 +9,25 @@
     <meta name="description" content="Este postafolio es para la prueba del modulo 1 de ADA">
     <meta name="keywords" content="portafolio, Developer, Front End, Programación">
 
-    <meta property="og:title" content="Portafolio">
+    <!-- Open Graph -->
+    <meta property="og:title" content="Portafolio Silvina Bordon">
     <meta property="og:description" content="Este portafolio es para la prueba del modulo 1 de ADA">
     <meta property="og:type" content="article">
     <meta property="og:site name" content="portfolio">
     <meta property="og:url" content="https://silbordon.github.io/Portfolio/">
-    <meta property="og:image"
-        content="https://github.com/Silbordon/Portfolio/blob/master/images/meta.png?raw=true">
+    <meta property="og:image" content="https://github.com/Silbordon/Portfolio/blob/master/images/meta.png?raw=true">
     <meta property="og:image:width" content="200" />
     <meta property="og:image:height" content="150" />
 
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://silbordon.github.io/Portfolio/">
+    <meta property="twitter:title" content="Portafolio Silvina Bordon">
+    <meta property="twitter:description" content="Este portafolio es para la prueba del modulo 1 de ADA">
+    <meta property="twitter:image"
+        content="https://github.com/Silbordon/Portfolio/blob/master/images/meta.png?raw=true">
+
+    <!-- Links-->
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
     <script src="https://kit.fontawesome.com/b50399bb27.js" crossorigin="anonymous"></script>
@@ -46,10 +55,10 @@
                 <input type="checkbox" id="dropdown-menu">
                 <label for="dropdown-menu" id="label-icons"> ☰ </label>
                 <ul class="container-menu">
-                    <li><a class="link-menu" href="#sectionaboutme">HOLA</a></li>
-                    <li><a class="link-menu" href="#sectionknowledge">CONOCIMIENTOS</a></li>
-                    <li><a class="link-menu" href="#sectionproyects">PROYECTOS</a></li>
-                    <li><a class="btn contact" href="#sectioncontacts">CONTACTO</a></li>
+                    <li><a class="link-menu" href="#sectionaboutme" aria-label="Hola">HOLA</a></li>
+                    <li><a class="link-menu" href="#sectionknowledge" aria-label="Conocimientos">CONOCIMIENTOS</a></li>
+                    <li><a class="link-menu" href="#sectionproyects" aria-label="Proyectos">PROYECTOS</a></li>
+                    <li><a class="btn contact" href="#sectioncontacts" aria-label="Contacto">CONTACTO</a></li>
                 </ul>
             </nav>
         </header>
@@ -62,13 +71,11 @@
                 <p class="box-title">¡Hola! Soy</p>
                 <h1 class="box-name">Silvina Bordón</h1>
                 <p class="box-description">Desarrolladora junior, bioquímica, mamá, esposa y fanática de Series. </p>
-                <button class="">
-                    <a class="btn do" href="#sectionproyects">LO QUE HAGO</a>
+                <button aria-label="Lo que hago">
+                    <a class="btn do" href="#sectionproyects" aria-hidden="true">LO QUE HAGO</a>
                 </button>
             </article>
             <figure class="container-img-me">
-                <!--<img src="./images/undraw_working_late_pukg (1).svg" width="100%" alt="imagen de mujer trabajando">-->
-
                 <img src="./images/undraw_dev_focus_b9xo (3).svg" width="80%" alt="imagen de mujer trabajando">
             </figure>
         </section>
@@ -85,28 +92,28 @@
 
             <article class="box-knowledge-items">
                 <div class="item-knowledge">
-                    <i class="devicon-html5-plain colored tamaño"></i>
-                    <p class="p-item">HTML 5</p>
+                    <i class="devicon-html5-plain colored tamaño" aria-hidden="true"></i>
+                    <p class="p-item" aria-label="Conocimientos en HTML 5">HTML 5</p>
                 </div>
                 <div class="item-knowledge">
-                    <i class="devicon-css3-plain colored tamaño"></i>
-                    <P class="p-item">CSS 3</P>
+                    <i class="devicon-css3-plain colored tamaño" aria-hidden="true"></i>
+                    <P class="p-item" aria-label="Conocimientos en CSS 3">CSS 3</P>
                 </div>
                 <div class="item-knowledge">
-                    <i class="devicon-sass-original colored tamaño"></i>
-                    <P class="p-item">Sass</P>
+                    <i class="devicon-sass-original colored tamaño" aria-hidden="true"></i>
+                    <P class="p-item" aria-label="Conocimientos en Sass">Sass</P>
                 </div>
                 <div class="item-knowledge">
-                    <i class="devicon-javascript-plain colored tamaño"></i>
-                    <p class="p-item">JavaScript</p>
+                    <i class="devicon-javascript-plain colored tamaño" aria-hidden="true"></i>
+                    <p class="p-item" aria-label="Conocimientos en JavaScript">JavaScript</p>
                 </div>
                 <div class="item-knowledge">
-                    <i class="devicon-react-original colored tamaño"></i>
-                    <p class="p-item">React</p>
+                    <i class="devicon-react-original colored tamaño" aria-hidden="true"></i>
+                    <p class="p-item" aria-label="Conocimientos en React">React</p>
                 </div>
                 <div class="item-knowledge">
-                    <i class="devicon-git-plain colored tamaño"></i>
-                    <p class="p-item">GIT</p>
+                    <i class="devicon-git-plain colored tamaño" aria-hidden="true"></i>
+                    <p class="p-item" aria-label="Conocimientos en GIT">GIT</p>
                 </div>
             </article>
         </section>
@@ -116,7 +123,7 @@
         <!--Empieza la seccion quote-->
 
         <section class="container-quote">
-            <div><i class="fas fa-quote-right quote-icon quotation"></i></div>
+            <div><i class="fas fa-quote-right quote-icon quotation" aria-hidden="true"></i></div>
             <blockquote class="box-quote">
                 <p class="p-quote">El éxito no es definitivo, el fracaso no es fatal: lo que realmente cuenta es el
                     valor
@@ -139,8 +146,8 @@
             <article class="box-items-proyects">
                 <div class="item-proyect">
                     <a href="#">
-                        <figure class="i-proyect">
-                            <img class="width-proyect-img" src="./images/portafolio.png" alt="Imagen de portfolio">
+                        <figure class="i-proyect" aria-label="Te redirecciona a Portafolio">
+                            <img class="width-proyect-img" src="./images/portafolio.png" alt="Imagen de portfolio" aria-hidden="true">
                             <figcaption class="p-proyect">Portafolio</figcaption>
                         </figure>
                     </a>
@@ -148,9 +155,9 @@
 
                 <div class="item-proyect">
                     <a href="#" target="_blank">
-                        <figure class="i-proyect">
+                        <figure class="i-proyect" aria-label="Te redirecciona a Proyecto Podcast">
                             <img class="width-proyect-img" src="./images/undraw_podcast_q6p7.svg"
-                                alt="imagen de podcast">
+                                alt="imagen de podcast" aria-hidden="true">
                             <figcaption class="p-proyect">Podcast</figcaption>
                         </figure>
                     </a>
@@ -158,9 +165,9 @@
 
                 <div class="item-proyect">
                     <a href="#">
-                        <figure class="i-proyect">
+                        <figure class="i-proyect" aria-label="Te redirecciona a Mis documentos">
                             <img class="width-proyect-img" src="./images/undraw_my_documents_ym8x.svg"
-                                alt="imagen de archivos">
+                                alt="imagen de archivos" aria-hidden="true">
                             <figcaption class="p-proyect">Mis documentos</figcaption>
                         </figure>
                     </a>
@@ -168,9 +175,9 @@
 
                 <div class="item-proyect">
                     <a href="#">
-                        <figure class="i-proyect">
+                        <figure class="i-proyect" aria-label="Te redirecciona a Proyectos Trabajo en Equipo">
                             <img class="width-proyect-img" src="./images/undraw_work_together_h63l.svg"
-                                alt="imagen de trabajo en equipo">
+                                alt="imagen de trabajo en equipo" aria-hidden="true">
                             <figcaption class="p-proyect">Trabajo en Equipo</figcaption>
                         </figure>
                     </a>
@@ -178,29 +185,29 @@
 
                 <div class="item-proyect">
                     <a href="#">
-                        <figure class="i-proyect">
+                        <figure class="i-proyect" aria-label="Te redirecciona a Landing Page">
                             <img class="width-proyect-img" src="./images/undraw_travel_plans_li01.svg"
-                                alt="imagen de una landing page">
+                                alt="imagen de una landing page" aria-hidden="true">
                             <figcaption class="p-proyect">Landing Page</figcaption>
                         </figure>
                     </a>
                 </div>
 
-                <div class="item-proyect">
+                <div class="item-proyect" aria-label="Te redirecciona a Administrador de Archivos">
                     <a href="#">
                         <figure class="i-proyect">
                             <img class="width-proyect-img" src="./images/undraw_file_manager_j85s.svg"
-                                alt="imagen de Administrador">
+                                alt="imagen de Administrador" aria-hidden="true">
                             <figcaption class="p-proyect">Administrador de archivos</figcaption>
                         </figure>
                     </a>
                 </div>
 
-                <div class="item-proyect">
+                <div class="item-proyect" aria-label="Te redirecciona a Proyectos Diseños">
                     <a href="#">
                         <figure class="i-proyect">
                             <img class="width-proyect-img" src="./images/undraw_working_late_pukg (1).svg"
-                                alt="imagen de mujer diseñando">
+                                alt="imagen de mujer diseñando" aria-hidden="true">
                             <figcaption class="p-proyect">Diseños</figcaption>
                         </figure>
                     </a>
@@ -222,30 +229,33 @@
                     </div>
                     <ul class="box-network">
                         <li class="social-network">
-                            <a class="net-color-a" href="https://twitter.com/?lang=es" target="_blank">
-                                <i class="fab fa-twitter net-i"></i>
+                            <a class="net-color-a" href="https://twitter.com/?lang=es" target="_blank"
+                                aria-label="Mi cuenta de Twitter, te redirecciona a otra ventana">
+                                <i class="fab fa-twitter net-i" aria-hidden="true"></i>
                                 @SilviBordon
                             </a>
                         </li>
 
                         <li class="social-network">
-                            <a class="net-color-a" href="https://github.com/Silbordon/MyApp" target="_blank">
-                                <i class="fab fa-github-alt net-i"> </i>
+                            <a class="net-color-a" href="https://github.com/Silbordon/MyApp" target="_blank"
+                                aria-label="Mi cuenta de Github,  te redirecciona a otra ventana">
+                                <i class="fab fa-github-alt net-i" aria-hidden="true"> </i>
                                 SilBordon
                             </a>
                         </li>
 
                         <li class="social-network">
                             <a class="net-color-a" href="https://www.linkedin.com/in/silvina-bordon-7b30bba7/"
-                                target="_blank">
-                                <i class="fab fa-linkedin-in net-i"></i>
+                                target="_blank" aria-label="Mi cuenta de LinkedIn,  te redirecciona a otra ventana">
+                                <i class="fab fa-linkedin-in net-i" aria-hidden="true"></i>
                                 Silvina Bordon
                             </a>
                         </li>
 
                         <li class="social-network">
-                            <a class="net-color-a" href="mailto:silbordon89@gmail.com" target="_blank">
-                                <i class="far fa-envelope net-i"></i>
+                            <a class="net-color-a" href="mailto:silbordon89@gmail.com" target="_blank"
+                                aria-label="Mi mail, te redirecciona a otra ventana">
+                                <i class="far fa-envelope net-i" aria-hidden="true"></i>
                                 silbordon.89@gmail.com
                             </a>
                         </li>
@@ -259,35 +269,38 @@
                             <div class="card-form">
                                 <label class="title-form" for="nombre">Nombre *</label>
                                 <input class="card-input" type="text" id="nombre" name="nombre"
-                                    placeholder="p. ej.:Silvina" required />
-                                    <i id="form-valid" class="far fa-check-circle form-valid" aria-hidden="true"></i>
-                                    <i id="form-invalid" class="far fa-times-circle form-invalid" aria-hidden="true"></i>
+                                    placeholder="p. ej.:Silvina" aria-label="Ingrese su Nombre" required />
+                                <i id="form-valid" class="far fa-check-circle form-valid" aria-hidden="true"></i>
+                                <i id="form-invalid" class="far fa-times-circle form-invalid" aria-hidden="true"></i>
                             </div>
                             <div class="card-form">
                                 <label class="title-form" for="apellido">Apellido *</label>
                                 <input class="card-input" type="text" id="apellido" name="apellido"
-                                    placeholder="p. ej.:Bordon" required />
-                                    <i id="form-valid" class="far fa-check-circle form-valid" aria-hidden="true"></i>
-                                    <i id="form-invalid" class="far fa-times-circle form-invalid" aria-hidden="true"></i>
+                                    placeholder="p. ej.:Bordon" aria-label="Ingrese su Apellido" required />
+                                <i id="form-valid" class="far fa-check-circle form-valid" aria-hidden="true"></i>
+                                <i id="form-invalid" class="far fa-times-circle form-invalid" aria-hidden="true"></i>
                             </div>
                         </div>
 
                         <div class="card-form">
                             <label class="title-form" for="email">Email *</label>
                             <input class="card-input" id="email" type="email" name="email"
-                                placeholder="p. ej.:silbordon.89@gmail.com" required />
-                                <i id="form-valid2" class="far fa-check-circle form-valid" aria-hidden="true"></i>
-                                <i id="form-invalid2" class="far fa-times-circle form-invalid" aria-hidden="true"></i>
+                                placeholder="p. ej.:silbordon.89@gmail.com" aria-label="Ingrese su Email" required />
+                            <i id="form-valid2" class="far fa-check-circle form-valid" aria-hidden="true"></i>
+                            <i id="form-invalid2" class="far fa-times-circle form-invalid" aria-hidden="true"></i>
                         </div>
                         <div class="card-form">
                             <label class="title-form" for="mensaje">Mensaje *</label>
                             <textarea class="card-input" name="mensaje" id="mensaje"
-                                placeholder="Ingrese su mensaje aqui" cols="30" rows="10" required></textarea>
-                                <i id="form-valid2" class="far fa-check-circle form-valid" aria-hidden="true"></i>
-                                <i id="form-invalid2" class="far fa-times-circle form-invalid" aria-hidden="true"></i>
+                                placeholder="Ingrese su mensaje aqui" cols="30" rows="10" aria-label="Ingrese su Mensaje"
+                                required></textarea>
+                            <i id="form-valid2" class="far fa-check-circle form-valid" aria-hidden="true"></i>
+                            <i id="form-invalid2" class="far fa-times-circle form-invalid" aria-hidden="true"></i>
                         </div>
 
-                        <button type="submit" class="btn send"> Enviar</button>
+                        <button type="submit" class="btn send" aria-label="Enviar">
+                            <span aria-hidden="true">Enviar</span>
+                        </button>
                     </form>
                 </article>
             </div>
@@ -298,35 +311,35 @@
         <footer class="container-footer">
             <div>
                 <ul class="container-nav-footer">
-                    <li><a class="a-text-footer" href="#sectionaboutme">HOLA</a></li>
-                    <li><a class="a-text-footer" href="#sectionknowledge">CONOCIMIENTOS</a></li>
-                    <li><a class="a-text-footer" href="#sectionproyects">PROYECTOS</a></li>
-                    <li><a class="a-text-footer" href="#sectioncontacts">CONTACTO</a></li>
+                    <li><a class="a-text-footer" href="#sectionaboutme" aria-label="Hola">HOLA</a></li>
+                    <li><a class="a-text-footer" href="#sectionknowledge" aria-label="Conocimientos">CONOCIMIENTOS</a></li>
+                    <li><a class="a-text-footer" href="#sectionproyects" aria-label="Proyectos">PROYECTOS</a></li>
+                    <li><a class="a-text-footer" href="#sectioncontacts" aria-label="Contacto">CONTACTO</a></li>
                 </ul>
             </div>
             <div>
                 <ul class="container-net-footer">
                     <li>
-                        <a href="https://twitter.com/?lang=es" target="_blank">
-                            <i class="fab fa-twitter socialnetwork"></i>
+                        <a href="https://twitter.com/?lang=es" target="_blank" aria-label="Pagina de Twitter, se abre en una nueva pestaña">
+                            <i class="fab fa-twitter socialnetwork" aria-hidden="true"></i>
                         </a>
                     </li>
 
                     <li>
-                        <a href="https://github.com/" target="_blank">
-                            <i class="fab fa-github-alt socialnetwork"></i>
+                        <a href="https://github.com/" target="_blank" aria-label="Pagina de Github, se abre en una nueva pestaña">
+                            <i class="fab fa-github-alt socialnetwork" aria-hidden="true"></i>
                         </a>
                     </li>
 
                     <li>
-                        <a href="https://www.linkedin.com/feed/" target="_blank">
-                            <i class="fab fa-linkedin-in socialnetwork"></i>
+                        <a href="https://www.linkedin.com/feed/" target="_blank" aria-label="Pagina de Linkedin, se abre en una nueva pestaña">
+                            <i class="fab fa-linkedin-in socialnetwork" aria-hidden="true"></i>
                         </a>
                     </li>
 
                     <li>
-                        <a href="https://mail.google.com/" target="_blank">
-                            <i class="far fa-envelope socialnetwork"></i>
+                        <a href="https://mail.google.com/" target="_blank" aria-label="Mail, se abre en una nueva pestaña">
+                            <i class="far fa-envelope socialnetwork" aria-hidden="true"></i>
                         </a>
                     </li>
                 </ul>
