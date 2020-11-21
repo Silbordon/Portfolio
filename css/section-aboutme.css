@@ -67,6 +67,7 @@
 @media (max-width: 1200px) {
 
     .container-aboutme {
+        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -96,6 +97,9 @@
     .container-img-me {
         margin-top: 10%;
         width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 
@@ -157,7 +161,7 @@
     }
 
     .container-img-me {
-        min-width: 60%;
+        width: 75%;
 
     }
 
@@ -184,6 +188,7 @@
 
     .container-aboutme {
         padding-top: 70%;
+        margin-bottom: 10%;
     }
 
     .box-title {
@@ -209,7 +214,8 @@
     }
 
     .container-img-me {
-        margin-top: 15%;
+        margin-top: 10%;
+        width: 80%;
     }
 }
 
